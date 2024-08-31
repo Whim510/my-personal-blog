@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background-color: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .about, .blog-posts {
+            margin-bottom: 30px;
+        }
+        .about h2, .blog-posts h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .blog-post {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>个人博客</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#blog">博客</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container">
+    <section class="about" id="about">
+        <h2>关于我</h2>
+        <p>欢迎来到我的个人博客！在这里，我分享我的生活感悟和读书笔记。希望我的文字能带给你启发和思考。</p>
+    </section>
+
+    <section class="blog-posts" id="blog">
+        <h2>博客文章</h2>
+
+        <div class="blog-post">
+            <h3>生活感悟：珍惜当下</h3>
+            <p>时间如白驹过隙，在快节奏的生活中，我们常常忽略了眼前的美好。今天，我想分享一些我对珍惜当下的思考。</p>
+        </div>
+
+        <div class="blog-post">
+            <h3>读书笔记：《活着》</h3>
+            <p>《活着》是一本让我深思的书，它不仅讲述了主人公福贵的坎坷一生，更揭示了人生命运的无常和坚韧。</p>
+        </div>
+
+        <!-- 更多博客文章可以在这里添加 -->
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2024 个人博客. 版权所有.</p>
+</footer>
+
+</body>
+</html>
